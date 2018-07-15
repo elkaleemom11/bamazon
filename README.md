@@ -50,10 +50,10 @@ will be notified, to say the store doesn't have enough in stock right now.
 
 10. Screen shots and pictures from console and MySQL Work bench. (see readme.images folder): 
  
-* departmentTable.csv
-* NodeCommandLineActivityBaamazonDB.docx
-* ProductsandDepartments.docx
-* productsTable.csv
+* departmentTable.csv (exported from DB into excel)
+* NodeCommand.pdf
+* ProductsandDepartments.pdf
+* productsTable.csv (exported from DB into excel)
 
 11. The products table contains information about each product that is sold in the store, including item number/id, product name, department name, price, stock quantity, and product sales.
 

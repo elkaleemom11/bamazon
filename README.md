@@ -1,14 +1,11 @@
 Overview:
 
-In this activity, I created an Amazon-like storefront with the MySQL skills learned in class. The app will take in orders from customers and deplete stock from the store's inventory of 10 selected items in the "Outdoor Recreation" and "Sports and Outdoor" departments. As a bonus task,I have programmed my app to track product sales across the store's departments and then provide a summary of the highest-grossing departments within my selection.  
-
+In this activity, I created an Amazon-like storefront with the MySQL skills learned in class. The app will take in orders from customers and deplete stock from the store's inventory of 10 selected items in the "Outdoor Recreation" and "Sports and Outdoor" departments. 
 About this project:
 
-The project is a command line application built using the inquirer npm package, Node.js, Javascript, and a MySQL database, called "Bamazon". It is an Amazon-like storefront takes in customer orders placed within the Outdoor Recreation and Sports and Outdoor departments through the "Bamazon Customer Portal". When the customer order is placed in the Customer Portal, the stock quantity for the product being purchased decreases by how much of that product the customer decides to buy.
+The project is a command line application built using the inquirer npm package, Node.js, Javascript, and a MySQL database, called "Bamazon". When the customer order is placed in the Customer Portal, the stock quantity for the product being purchased decreases by how much of that product the customer decides to buy.
 
-Managers can use this application through the Bamazon Manager Portal. In the Bamazon Manager Portal, managers can see all the products that are currently being sold in the store;  all products that are low in inventory (5 items or less); add inventory to an existing product, and add a new product to the store.
-
-Challenge #1: Customer View - (See the schema.sql file for reference).
+Customer View - (See the schema.sql file for reference).
 
 1. Created a MySQL Database called `bamazon`.
 
@@ -49,16 +46,14 @@ will be notified, to say the store doesn't have enough in stock right now.
    * SQL database is then updated to reflect the remaining quantity.
    * Once the update goes through, the customer is shown the total cost of their purchase.
 
-9. BamazonCustomer.js: Bamazon Customer Portal. Running this application displays information for all of the items on sale, including item number, product name, department name, and product price.
+9. schema.sql: The database schema. The schema is what describes the structure of each table, and the datatypes that each column of the table contain. For this project, the database includes two tables, a products table and a departments table.
 
-10. schema.sql: The database schema. The schema is what describes the structure of each table, and the datatypes that each column of the table contain. For this project, the database includes two tables, a products table and a departments table.
-
-See also the following files in readme_images folder: 
+10. Screen shots and pictures from console and MySQL Work bench. (see readme.images folder): 
  
-departmentTable.csv
-NodeCommandLineActivityBaamazonDB.docx
-ProductsandDepartments.docx
-productsTable.csv
+* departmentTable.csv
+* NodeCommandLineActivityBaamazonDB.docx
+* ProductsandDepartments.docx
+* productsTable.csv
 
 11. The products table contains information about each product that is sold in the store, including item number/id, product name, department name, price, stock quantity, and product sales.
 
